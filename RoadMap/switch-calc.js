@@ -1,5 +1,5 @@
-
-function Calc(opp,a,b) {
+document.querySelector("#submit").onclick = function() { 
+  function Calc(opp,a,b) {
 let valid = ((a == Number(a) && b == Number(b))&&(a != '' && b != ''));
 
      if(valid) {
@@ -34,3 +34,4 @@ let valid = ((a == Number(a) && b == Number(b))&&(a != '' && b != ''));
   let b = +prompt("Введите операнд b");
   let opp = prompt("Введите оператор:");
   Calc(opp,a,b)
+}
