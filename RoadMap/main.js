@@ -1,14 +1,8 @@
 
 function Calc(opp,a,b) {
+let valid = (a == Number(a) && b == Number(b));
 
-  
-    if(a != Number(a) || a == ''){
-      console.log("вы ввели не число а");
-    }
-   else if(b != Number(b) || b == '') {
-      console.log("вы ввели не число b");
-    }
-     else {
+     if(valid) {
     switch(opp){
       case "+" :     
     c = +a + +b;
@@ -29,9 +23,13 @@ function Calc(opp,a,b) {
         default :
     console.log("неверный оператор");
     }
+  }  else if(a != Number(a) || a == ''){
+      console.log("вы ввели не число а");
+    }
+   else if(b != Number(b) || b == '') {
+      console.log("вы ввели не число b");
   }
-  }
-  
+}
   let a = +prompt("Введите операнд a");
   let b = +prompt("Введите операнд b");
   let opp = prompt("Введите оператор:");
