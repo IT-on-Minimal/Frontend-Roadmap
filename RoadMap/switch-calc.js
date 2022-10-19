@@ -1,6 +1,6 @@
 
 function Calc(opp,a,b) {
-let valid = (a == Number(a) && b == Number(b));
+let valid = ((a == Number(a) && b == Number(b))&&(a != '' && b != ''));
 
      if(valid) {
     switch(opp){
@@ -24,10 +24,10 @@ let valid = (a == Number(a) && b == Number(b));
     console.log("неверный оператор");
     }
   }  else if(a != Number(a) || a == ''){
-      console.log("вы ввели не число а");
+      console.log("отсутствует число а");
     }
    else if(b != Number(b) || b == '') {
-      console.log("вы ввели не число b");
+      console.log("отсутствует число b");
   }
 }
   let a = +prompt("Введите операнд a");
