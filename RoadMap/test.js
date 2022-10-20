@@ -1,4 +1,4 @@
-document.getElementById("button_2").onclick = function () {
+document.querySelector("#test").onclick = function () {
     function Sms(){
     alert ("Вы нажали кнопку.");
     }
