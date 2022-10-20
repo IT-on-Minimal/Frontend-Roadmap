@@ -1,4 +1,4 @@
-document.querySelector("#Calc_switch").onclick = function() { 
+document.querySelector("#Calc_switch2").onclick = function() { 
   function Calc(opp,a,b) {
 let valid = ((a == Number(a) && b == Number(b))&&(a != '' && b != ''));
 

@@ -1,0 +1,25 @@
+body {
+    margin: 20px;
+    background-color: rgb(36, 36, 36);
+    font: 14px "Verdana";
+  }
+  h1 {
+    color: rgb(181, 234, 255);
+    text-align: center;
+  }
+  p {
+    color:rgb(246, 251, 255);
+  }
+  div {
+    padding: 15px;
+  }
+  ul {
+    /* Убираю маркеры у списка*/
+    list-style: none;
+    /* Делаю элементы блочными. */
+    display: block;
+    /* Убираю отступы. */
+    margin: 0px;
+    /* Убираю еще отступы! */
+    padding: 0px;
+  }
