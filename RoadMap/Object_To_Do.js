@@ -82,10 +82,10 @@ document.querySelector("#Object_To_Do").onclick = function() {
     changeStatus(' write a post',STATUS.DONE)
     
     addTask(' Farm',STATUS.DONE)
-    addTask(' Game',STATUS.DONE)
+    addTask(' Education',STATUS.DONE)
     addTask(' Coding',STATUS.DONE)
-    addTask(' create a new practice task',STATUS.DONE) 
-    addTask(' write a post',STATUS.DONE)
+    addTask(' Create a new practice task',STATUS.DONE) 
+    addTask(' Write a post',STATUS.DONE)
     showList();
  }
 
